@@ -1,0 +1,17 @@
+{
+    "name": "module/dataobject",
+    "description": "",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Module\\DataObject\\": ""
+        }
+    }
+}
+
